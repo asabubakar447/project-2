@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100;200;300;400;500;600;700;800&family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*  Global Css  */
+*
+{ margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+body{
+	color: #fff;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background: url(../images/regibg.jpg) no-repeat;
+	background-position: center top;
+	background-size: cover;
+	font-family: 'Poppins', sans-serif;
+	padding: 10px;
+}
+
+ h1, h2, h3, h4, h5, h6{
+ 	font-family: 'Raleway', sans-serif;}
+
+ .container{
+ 	width: 600px;
+	height: 500px;
+	background: #FF0EFF;
+	border: 0.4px solid #ff;
+	margin: 10px auto 0px;
+	padding: 25px;
+	border-radius: 20px;
+
+	
+}
+.container .heading {
+	font-size: 25px;
+	font-weight: 500;
+	position: relative;
+	text-align: center;
+	padding: 0 0 20px 0;
+
+}
+
+ .container form .card-details{
+ 	margin-top: 20px;
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: space-between;
+ }
+
+form .card-details .card-box{
+	width: calc(100% / 2 - 20px);
+	margin-bottom: 15px
+}
+.card-details .card-box .details {
+	display: block;
+	font-weight: 500;
+	margin-bottom: 5px;
+
+}
+.card-details .card-box input {
+	height: 45px;
+	width: 100%;
+	outline: no;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	padding-left: 15px;
+	bottom-border-width: 2px;
+	transform: all 0.3s ease;
+
+}
+.card-details .card-box input:focus,
+.card-details .card-box input:vaild{
+	border-color: #9b59b6;
+}
+form .circel-from . circel-title{
+	font-size: 20px;
+	font-weight: 500;
+	border-bottom: 2px solid;
+
+
+}
+form .circel-from .category{
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+form .button{
+	text-align: center;
+}
+form .button input {
+	color: white;
+    padding: 12px 42%;
+    background-color: #1B1C4D;
+    display: block;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+form .button input:hover{
+	cursor: pointer;
+   	background:#FF0EFF;
+   	transform: all 0.3s ease-in-out;
+   	align-content: center;
+}

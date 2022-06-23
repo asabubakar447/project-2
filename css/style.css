@@ -1,0 +1,232 @@
+ @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*  Global Css  */
+*
+{ margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+
+}
+a{text-decoration: none}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+
+}
+ h1, h2, h3, h4, h5, h6{
+ 	font-family: 'Raleway', sans-serif;
+ }
+
+ 
+.container{
+	width: 100%;
+	height: 100vh;
+}
+.bg{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://cdn.pixabay.com/photo/2017/09/08/00/38/friend-2727307_960_720.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	
+}
+.top{
+	width: 100%;
+	height: 70px;
+	background: rgba(4, 121, 0, 0.8);
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 100px;
+	margin-bottom: 100px;
+}
+.logo-area {
+	width: 20%;
+	margin-top: 15px;
+}
+.logo-area a{
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo-area a{
+	text-decoration: none;
+}
+.logo-area a img{
+	width: 80px;
+}
+.logo-area a h1{
+	color: #fff;
+	text-transform: uppercase;
+	font-family: cursive;
+	font-size: 25px;
+	text-decoration: none;
+	margin-left: 10px;
+}
+.menu-area{
+	width: 40%;
+}
+.menu-area ul{
+	margin-top: 15px;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.menu-area ul li{
+	position: relative;
+	margin: 100px;
+	margin: 15px;
+	padding: 15px;
+
+}
+.menu-area ul li::after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 3px;
+	background: #00ffff
+	bottom:-10px;
+	left: 0px;
+}
+.menu-area ul li a{
+	color: #fff;
+	font-family: lato;
+	font-size: 15px;
+	text-decoration: none;
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+	margin-left: 0px;
+}
+.active, .menu-area ul li:hover{
+	background-color: #2bab0d;
+	border-radius: 3px;
+	transition: .5s all ease-in-out;
+}
+
+.info{
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.info h1{
+	color: #fff;
+	font-family: lato;
+	font-size: 40px;
+}
+
+.info p{
+	color: #fff;
+	margin: 20px 0px;
+}
+
+.btn button{
+	padding: 12px 45px;
+	background: transparent;
+	border: 2px solid aqua;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 25px;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+.btn button::after{
+	content: '';
+	position: absolute;
+	width: 0%;
+	height: 100%;
+	background: rgb(4, 121, 0);
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+	transform: .5s all ease-in-out;
+}
+
+.btn button:hover::after{
+	width: 100%;
+}
+
+.my-mission{
+    text-align: left;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.my-mission-bg-one{
+    background-color: #EDF5F6;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+.my-mission-bg-two{
+    background-color: #FFEEEE;
+    margin-right: 10px;
+    margin-top: 7px;
+    }
+ .my-mission-bg-three{
+    background-color: #FFF4D6;
+    margin-right: 10px;
+    margin-top: 7px;
+    }
+
+.my-mission img{
+	width: 100px;
+}
+.main-heading{
+	text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    color: #002147;
+    font-family: latto;
+    padding: 10px;
+}
+
+.main-heading h1{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+	font-family: monospace;
+	font-weight: 400;
+	font-size: 50px;
+}
+.row{
+	width: 100%;
+	margin-bottom: 50px;
+		
+}
+.row img{
+	margin-bottom: 10px;
+	margin-right: 10px;
+	display: block;
+}
+.massage h4{
+	margin-left: 50px;
+}
+.massage h5{
+	margin-left: 50px;
+	font-size: 15px;
+}
+.massage p{
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	margin-left: 50px;
+	margin-top: 25px;
+}
+
+footer.footer-section {
+    background-color: #0B0D17;
+    padding: 10px 0;
+	color: white;
+	text-align: center;
+}
+
